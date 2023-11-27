@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+  <link rel="stylesheet" href="../CSS/loginnav.css">
+</head>
+<body>
+
+ 
+    <nav>
+       
+       <label class="logo"> <a href="index.html" id="loginpay">Pay Roll</a></label>
+        <ul>
+           
+        
+            <li><a href="teamp.html">Teams</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="choice.html">Login</a></li>
+        </ul>
+    </nav>
+  
+
+
+  <div class="box">
+    <span class="borderline"></span>
+    <form action="../PHP/login2.php" method="post">
+      <h2>Sign in as Employee</h2>
+      <label for="userid"></label>
+      <div class="inputbox">
+        <input type="text" name="userid" required>
+        <span>User ID</span>
+        <i></i>
+      </div>
+
+      <label for="password"></label>
+        <div class="inputbox">
+          <input type="password" name="password" required>
+          <span>Password</span>
+          <i></i>
+      </div>
+
+   
+
+   
+
+     <a href="#" id="submitlnk"> <input type="submit" value="login" name="login"></a>
+    </form>
+  </div>
+</body>
+</html>
