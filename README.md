@@ -1,2 +1,2 @@
 
-I developed this payroll system using PHP and MYSQL 
+An project configured for a small organisation with PHP & mysql
